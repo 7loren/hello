@@ -18,7 +18,16 @@ go: to add module requirements and sums:
 
 
 ```bash
+➜  hello git:(main) ✗ go get github.com/7loren/hello          
+
+go: downloading github.com/7loren/hello v0.1.1
+go: added github.com/7loren/hello v0.1.1
+```
+
+
+```bash
 ➜  hello git:(main) git add .
+
 ➜  hello git:(main) ✗ git commit -m "feat: SayHi现在支持给指定人打招呼啦"
 [main d1b47ac] feat: SayHi现在支持给指定人打招呼啦
  2 files changed, 5 insertions(+), 3 deletions(-)
@@ -46,5 +55,6 @@ To https://github.com/7loren/hello.git
 
 
 ```bash
-go get github.com/7loren/hello/v2@v2.0.0
+➜  hello git:(main) ✗ go get github.com/7loren/hello/v2@v2.0.0
+go: package github.com/7loren/hello/v2 is in the main module, so can't request version v2.0.0
 ```
