@@ -5,6 +5,7 @@ Go
 
 ```bash
 ➜  hello git:(main) ✗ go mod init github.com/7loren/hello
+
 go: creating new go.mod: module github.com/7loren/hello
 go: to add module requirements and sums:
         go mod tidy
@@ -30,7 +31,9 @@ Writing objects: 100% (4/4), 580 bytes | 580.00 KiB/s, done.
 Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/7loren/hello.git
    5c787f2..d1b47ac  main -> main
+
 ➜  hello git:(main) git tag -a v2.0.0 -m "release version v2.0.0"
+
 ➜  hello git:(main) git push origin v2.0.0
 Enumerating objects: 1, done.
 Counting objects: 100% (1/1), done.
