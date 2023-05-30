@@ -1,4 +1,4 @@
-module github.com/q1mi/hello/v2
+module github.com/7loren/hello/v2
 
 
 go 1.19
